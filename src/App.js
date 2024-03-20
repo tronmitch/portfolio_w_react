@@ -3,6 +3,7 @@
 import Header from  '../src/components/Header'
 import Navbar from '../src/components/Navbar'
 import Footer from '../src/components/Footer'
+import Card from '../src/components/Card'
 // const Footer = require('../src/components/Footer')
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Navbar />
+      <Card />
       <Footer />
     </div>
   );

@@ -10,14 +10,17 @@ function Footer() {
     <div className='card'>
       <div className='footer'>
         <h2>About</h2>
-        <p>
-With a Mechanical Engineering BS from BYU and a minor in Math, I have honed my expertise in CAD design over 15 years, mastering Creo NX, SolidWorks, and more. As a Technical Project Manager, I bring a blend of analytical prowess and creative problem-solving to every project. Outside of work, my life is enriched by my family of four kids and my passion for Ultimate Frisbee, reflecting my commitment to teamwork and strategic play both professionally and personally</p>
+        <p>With a Mechanical Engineering BS from BYU and a minor in Math, I have honed...</p>
       </div>
-      <h2>Contact</h2>
-      <p>theron.mitchell@gmail.com</p>
-      <p>775-225-1472</p>
+      <div className='vertical-line'></div>
+      <div className='contact-info'>
+        <h2>Contact</h2>
+        <p>theron.mitchell@gmail.com</p>
+        <p>775-225-1472</p>
+      </div>
     </div>
   );
 }
 
 export default Footer;
+
