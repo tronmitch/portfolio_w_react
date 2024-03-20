@@ -1,0 +1,13 @@
+.card {
+  /* margin: 20px; */
+  background: #e8eaf6; /* Remove quotes around color values */
+}
+
+.heading {
+  background: #e0dfdf; /* Remove quotes around color values */
+  /* min-height: 20px; */
+  line-height: 3.5; /* Assuming you want to keep the unitless line height */
+  font-size: 20px; /* Remove quotes around font size */
+  color: white; /* Remove quotes around color name */
+  padding: 0 20px;
+}

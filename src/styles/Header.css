@@ -1,0 +1,13 @@
+.header {
+  /* background: #f9b713; */
+  /* height: 200px; */
+  background-image: url('../images/background.jpg');
+}
+
+.header h1 {
+  margin: 0;
+  padding-top: 75px;
+  text-align: center;
+  color: rgb(29, 21, 21);
+  font-size: 3rem;
+}
