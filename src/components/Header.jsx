@@ -1,12 +1,18 @@
-// Here we are importing a CSS file as a dependency
-import '../styles/Header.css';
-import background_img from '../images/theron_profile.jpg'
+import "../styles/style.css"
+import backgroundImg from '../images/background.jpg';
+import profileImg from '../images/theron_profile.jpg';
 
 function Header() {
   return (
-<header className="header">
-  <h1>Theron Mitchell</h1>
-</header>
+    <header className="flex">
+      <h1 id="header">Theron Mitchell</h1>
+      <nav>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    
   );
 }
 
