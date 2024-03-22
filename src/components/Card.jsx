@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/style.css";
+import "../images/weather.png"
 
 const styles = {
   card: {
@@ -20,6 +21,7 @@ const styles = {
 };
 
 function Card({ projects }) {
+  console.log(projects)
   return (
     <section style={styles.card}>
       <h2 style={styles.heading}>Work</h2>
@@ -29,7 +31,7 @@ function Card({ projects }) {
         <div key = {project.title}>
         <h3>{project.title}</h3>
         <section>{project.description } </section>
-        <img src= {require(project.image)} alt={`Project ${project.title}`} onError={(e) => console.log('Error loading image:', e.target.src)} />
+        <img src={project.image} alt={`Project ${project.title}`} onError={(e) => console.log('Error loading image:', e.target.src)} />
         </div>
         ))}
         
