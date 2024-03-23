@@ -1,19 +1,15 @@
-import "../styles/style.css"
-import backgroundImg from '../images/background.jpg';
-import profileImg from '../images/theron_profile.jpg';
+ 
+ 
+ function Header(){
+    return (
+        <div className="align-center">
+            <h1 className="align-center">Theron Mitchell</h1>
+        </div>
+    )
+ }
 
-function Header() {
-  return (
-    <header className="flex">
-      <h1 id="header">Theron Mitchell</h1>
-      <nav>
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-    
-  );
-}
-
-export default Header;
+ export default Header;
+ // Parent div with flex utilities
+//  <div className="d-flex justify-content-between bg-light align-center">
+//  {/* Title on the left */}
+//  <h2 style={{ margin: '0', lineHeight: '100px', padding: '0px 20px', }}>Theron Mitchell</h2>

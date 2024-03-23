@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/style.css";
-import "../images/weather.png"
 
 const styles = {
   card: {
@@ -20,7 +19,7 @@ const styles = {
   },
 };
 
-function Card({ projects }) {
+function Portfolio({ projects }) {
   console.log(projects)
   return (
     <section style={styles.card}>
@@ -28,7 +27,7 @@ function Card({ projects }) {
       <hr className="solid" />
       <div className="parent-img">
         {projects.map(( project )=> (
-        <div key = {project.title}>
+        <div key = {project.title}> title={project.title}
         <h3>{project.title}</h3>
         <section>{project.description } </section>
         <img src={project.image} alt={`Project ${project.title}`} onError={(e) => console.log('Error loading image:', e.target.src)} />
@@ -41,4 +40,4 @@ function Card({ projects }) {
   );
 }
 
-export default Card;
+export default Portfolio;
