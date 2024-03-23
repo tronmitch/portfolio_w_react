@@ -11,7 +11,7 @@ function Footer() {
   return (
     <footer>
         <a href="https://github.com/tronmitch"><img src={github} alt="" /></a>
-        <a href="https://github.com/tronmitch"><img src={linkedin} alt="" /></a>
+        <a href="https://linkedin.com/in/theron-mitchell-9510552ba"><img src={linkedin} alt="" /></a>
 </footer>
   );
 }

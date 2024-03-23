@@ -24,13 +24,6 @@ const projects = [
         description: "Web page designed to help plan your garden",
         image: garden
     },
-    {
-        title: "Tell Me The Weather",
-        url: "https://tronmitch.github.io/tellmetheweather/",
-        repo: "https://github.com/tronmitch/tellmetheweather", 
-        description: "Web page desinged for viewing the weather",
-        image: weather
-    },
 ]
 
 export default projects

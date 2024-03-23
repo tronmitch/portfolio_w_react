@@ -23,14 +23,17 @@ function Portfolio({ projects }) {
   console.log(projects)
   return (
     <section style={styles.card}>
-      <h2 style={styles.heading}>Work</h2>
+      {/* <h2 style={styles.heading}>Work</h2> */}
       <hr className="solid" />
       <div className="parent-img">
         {projects.map(( project )=> (
-        <div key = {project.title}> title={project.title}
+        <div key = {project.title}> 
         <h3>{project.title}</h3>
-        <section>{project.description } </section>
-        <img src={project.image} alt={`Project ${project.title}`} onError={(e) => console.log('Error loading image:', e.target.src)} />
+        {/* <section>{project.description } </section> */}
+        <a href={project.url}>
+          <img src={project.image} alt={`Project ${project.title}`} onError={(e) => 
+            console.log('Error loading image:', e.target.src)} />
+        </a>
         </div>
         ))}
         
