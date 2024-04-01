@@ -5,18 +5,18 @@ export default function Resume() {
   return (
     
 <body>
-<div class="download">
+<div className="download">
     <a href="theron_mitchell_resume.pdf" download={resume}>Download Resume as PDF</a>
   </div>
-    <div class="resume">
-        <div class="header">
+    <div className="resume">
+        <div className="header">
             <h1>Theron Mitchell</h1>
             <p>522 S 500 E, Orem, UT 84097 | theron.mitchell@gmail.com | (775) 225-1472</p>
         </div>
 
-        <div class="experience">
+        <div className="experience">
             <h2>EXPERIENCE</h2>
-            <div class="job">
+            <div className="job">
                 <h3>CDS Visual, San Jose CA — 2017-Present</h3>
                 <ul>
                     <li>Manage up to 5 projects at a time as technical lead, working with the client and offshore our engineering team.
@@ -28,7 +28,7 @@ export default function Resume() {
                     <li>Developed smart drawing for cutting tool company (Kennametal) that can produce sales drawings for 100k+ different tool combinations used on their site today.</li>
                 </ul>
             </div>
-            <div class="job">
+            <div className="job">
                 <h3>Parametric Solutions INC., Jupiter FL — 2015-2017</h3>
                 <ul>
                     <li>Developed custom automation tools for aerospace customer (Pratt & Whitney)
@@ -39,7 +39,7 @@ export default function Resume() {
                     </li>
                 </ul>
             </div>
-            <div class="job">
+            <div className="job">
                 <h3>Belcan Engineering Group, Provo UT — 2006-2015</h3>
                 <ul>
                     <li>Developed custom automation tools for NX and Teamcenter
@@ -59,7 +59,7 @@ export default function Resume() {
                 </ul>
             </div>
         </div>
-        <div class="technical-skills">
+        <div className="technical-skills">
             <h2>TECHNICAL SKILLS</h2>
             <ul>
                 <li>CAD (NX, SolidWorks, Creo)</li>
@@ -67,7 +67,7 @@ export default function Resume() {
                 <li>Microsoft Office (Excel, Access, PowerPoint, Word)</li>
             </ul>
         </div>
-        <div class="education">
+        <div className="education">
             <h2>EDUCATION</h2>
             <ul>
                 <li>Bachelor of Science - Mechanical Engineering, Brigham Young University</li>
