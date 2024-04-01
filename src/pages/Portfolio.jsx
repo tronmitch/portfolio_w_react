@@ -34,6 +34,9 @@ function Portfolio({ projects }) {
           <img src={project.image} alt={`Project ${project.title}`} onError={(e) => 
             console.log('Error loading image:', e.target.src)} />
         </a>
+        <a href={project.repo}>
+          <p>Repo</p> 
+        </a>
         </div>
         ))}
         
